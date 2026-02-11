@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLIKK – Luxury Convertible Bag</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f1ea;
+      color: #0f0f0f;
+    }
+    h1,h2,h3 {
+      font-family: 'Playfair Display', serif;
+    }
+    .navbar {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px 8%;
+      background:white;
+      border-bottom:1px solid #e8e6e3;
+    }
+    .logo {
+      font-weight:700;
+      letter-spacing:4px;
+      font-size:24px;
+    }
+    .hero {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      padding:80px 8%;
+      gap:60px;
+      align-items:center;
+    }
+    .hero img {
+      width:100%;
+      border-radius:20px;
+      box-shadow:0 20px 40px rgba(0,0,0,0.15);
+    }
+    .btn {
+      background:#c6a96b;
+      color:white;
+      padding:14px 32px;
+      border:none;
+      border-radius:40px;
+      cursor:pointer;
+      font-weight:600;
+    }
+    footer {
+      background:#0f0f0f;
+      color:#bbb;
+      text-align:center;
+      padding:30px;
+      margin-top:40px;
+    }
+    @media(max-width:900px){
+      .hero { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">SLIKK</div>
+    <button class="btn">Cart</button>
+  </div>
+
+  <section class="hero">
+    <div>
+      <h1>Luxury Meets Versatility.</h1>
+      <p>
+        The SLIKK Convertible Bag transforms effortlessly from backpack to tote to sling.
+        Designed for modern professionals and travelers.
+      </p>
+      <h2>₹4,499</h2>
+      <button class="btn">SHOP NOW</button>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7">
+    </div>
+  </section>
+
+  <footer>
+    © 2026 SLIKK. Crafted for Life on the Go.
+  </footer>
+
+</body>
+</html>
